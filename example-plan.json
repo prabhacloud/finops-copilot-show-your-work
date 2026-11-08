@@ -1,0 +1,14 @@
+{
+  "metric": "amortized_cost",
+  "start_date": "2026-09-01",
+  "end_date": "2026-10-01",
+  "group_by": ["service", "environment"],
+  "filters": [
+    {
+      "field": "team",
+      "operator": "eq",
+      "value": "data-platform"
+    }
+  ],
+  "limit": 10
+}
